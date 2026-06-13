@@ -259,3 +259,13 @@ textarea{min-height:140px;resize:vertical}
   z-index:0;
   pointer-events:none;
 }
+@media(max-width:760px){
+  .orb-one{
+    z-index:0;
+    opacity:.35;
+  }
+
+  .hero-content{
+    z-index:2;
+  }
+}
