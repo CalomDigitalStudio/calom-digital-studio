@@ -255,10 +255,6 @@ textarea{min-height:140px;resize:vertical}
   z-index:2;
 }
 
-.orb{
-  z-index:0;
-  pointer-events:none;
-}
 @media(max-width:760px){
   .orb-one{
     z-index:0;
@@ -267,5 +263,27 @@ textarea{min-height:140px;resize:vertical}
 
   .hero-content{
     z-index:2;
+  }
+}
+.hero{
+  position:relative;
+}
+
+.hero-content{
+  position:relative;
+}
+
+@media(max-width:760px){
+  .hero-content{
+    z-index:2;
+  }
+
+  .orb{
+    z-index:0;
+    pointer-events:none;
+  }
+
+  .orb-one{
+    opacity:.35;
   }
 }
