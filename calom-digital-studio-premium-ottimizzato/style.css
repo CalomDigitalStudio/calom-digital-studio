@@ -300,3 +300,21 @@ textarea{min-height:140px;resize:vertical}
   .brand-logo{height:46px;max-width:210px}
   .site-header{padding:10px 16px}
 }
+.hero-logo{
+  display:block;
+  width:320px;
+  max-width:80%;
+  height:auto;
+  margin:0 auto 40px;
+}
+
+.brand{
+  display:none;
+}
+
+@media(max-width:760px){
+  .hero-logo{
+    width:220px;
+    margin:0 auto 30px;
+  }
+}
