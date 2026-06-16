@@ -314,7 +314,7 @@ textarea{min-height:140px;resize:vertical}
 
 @media(max-width:760px){
   .hero-logo{
-    width:220px;
+    width:320px;
     margin:0 auto 30px;
   }
 }
