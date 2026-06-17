@@ -39,7 +39,17 @@ a{color:inherit;text-decoration:none}
 .menu-toggle{display:none;background:none;border:0;gap:5px;flex-direction:column}
 .menu-toggle span{width:25px;height:2px;background:#fff;display:block}
 .section-pad{padding:clamp(76px,9vw,145px) clamp(20px,5vw,72px);position:relative;z-index:1}
-.hero{min-height:92vh;display:grid;place-items:center;text-align:center;overflow:hidden}
+.hero{
+  position:relative;
+  min-height:90vh;
+  display:flex;
+  flex-direction:column;
+  justify-content:flex-start;
+  align-items:center;
+  text-align:center;
+  overflow:hidden;
+  padding-top:70px;
+}
 .hero-content{max-width:1080px}
 .eyebrow{color:var(--blue-soft);text-transform:uppercase;letter-spacing:.18em;font-size:12px;font-weight:800;margin-bottom:18px}
 h1{font-size:clamp(48px,8vw,104px);line-height:.92;letter-spacing:-.075em;margin-bottom:26px}
