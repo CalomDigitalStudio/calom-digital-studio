@@ -298,7 +298,7 @@ textarea{min-height:140px;resize:vertical}
 
 @media(max-width:760px){
   .brand-logo{height:46px;max-width:210px}
-  .site-header{padding:10px 16px}
+  .site-header{padding:0px 0px}
 }
 .hero-logo{
   display:block;
