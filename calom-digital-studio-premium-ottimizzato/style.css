@@ -133,13 +133,14 @@ a{
 /* HERO */
 .hero{
   position:relative;
-  min-height:calc(100vh - 86px);
+  min-height:auto;
   display:flex;
   justify-content:flex-start;
   align-items:center;
   text-align:center;
   overflow:hidden;
   padding-top:15px;
+  padding-bottom:70px;
 }
 
 .hero-content{
@@ -758,10 +759,13 @@ textarea{
     display:flex;
   }
 
+  @media(max-width:760px){
   .hero{
-    min-height:calc(100vh - 72px);
-    padding-top:10px;
+    min-height:auto;
+    padding-top:15px;
+    padding-bottom:60px;
   }
+}
 
   .hero-logo{
     width:300px;
@@ -797,15 +801,15 @@ textarea{
 /* TABLET VERTICALE */
 @media (min-width:761px) and (max-width:980px) and (orientation:portrait){
   .hero{
-    min-height:calc(100vh - 86px);
+    min-height:auto;
     padding-top:15px;
-    align-items:flex-start;
+    padding-bottom:65px;
   }
 
   .hero-content{
-    margin-top:0;
-    transform:translateY(-40px);
+    transform:none;
   }
+}
 
   .hero-logo{
     margin-top:0;
