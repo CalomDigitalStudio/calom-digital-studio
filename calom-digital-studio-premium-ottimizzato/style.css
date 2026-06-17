@@ -760,7 +760,7 @@ textarea{
 
   .hero{
     min-height:calc(100vh - 72px);
-    padding-top:55px;
+    padding-top:10px;
   }
 
   .hero-logo{
